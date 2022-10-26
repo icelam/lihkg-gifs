@@ -6,6 +6,7 @@
 //
 
 import Cocoa
+import Carbon.HIToolbox
 
 class PasteboardManager: NSObject {
   static func copyImageToPasteboard(fileName: String) {
@@ -14,5 +15,23 @@ class PasteboardManager: NSObject {
     pasteBoard.clearContents()
     pasteBoard.declareTypes([NSPasteboard.PasteboardType.fileURL], owner: nil)
     pasteBoard.writeObjects([imageURL! as any NSPasteboardWriting])
+  }
+  
+  static func paste() {
+    let vKeyCode = CGKeyCode(kVK_ANSI_V)
+    DispatchQueue.main.async {
+      let source = CGEventSource(stateID: .combinedSessionState)
+      // Disable local keyboard events while pasting
+      source?.setLocalEventsFilterDuringSuppressionState([.permitLocalMouseEvents, .permitSystemDefinedEvents], state: .eventSuppressionStateSuppressionInterval)
+      // Press Command + V
+      let keyVDown = CGEvent(keyboardEventSource: source, virtualKey: vKeyCode, keyDown: true)
+      keyVDown?.flags = .maskCommand
+      // Release Command + V
+      let keyVUp = CGEvent(keyboardEventSource: source, virtualKey: vKeyCode, keyDown: false)
+      keyVUp?.flags = .maskCommand
+      // Post Paste Command
+      keyVDown?.post(tap: .cgAnnotatedSessionEventTap)
+      keyVUp?.post(tap: .cgAnnotatedSessionEventTap)
+    }
   }
 }

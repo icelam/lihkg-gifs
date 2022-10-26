@@ -19,6 +19,19 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   // Copy GIF file to clipboard
   @objc func copyImage(_ sender: NSMenuItem?) {
     PasteboardManager.copyImageToPasteboard(fileName: sender!.title)
+    
+    let options: NSDictionary = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String : true]
+    let accessEnabled = AXIsProcessTrustedWithOptions(options)
+
+    if accessEnabled {
+      PasteboardManager.paste()
+    } else {
+      let notification = NSUserNotification()
+      notification.title = "Unable to paste GIF"
+      notification.informativeText = "The GIF image were loaded to clipboard, but we could not paste the GIF due to insufficient permission. Please make sure you have grant \"Accessability\" permission to this app by going to System Preferences > Security & Privacy > Priacy > Accessability > Check \"\(bundleName)\"."
+      
+      NSUserNotificationCenter.default.deliver(notification)
+    }
   }
   
   // Construct status item button
