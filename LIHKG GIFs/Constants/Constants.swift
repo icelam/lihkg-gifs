@@ -5,8 +5,16 @@
 //  Created by Ice Lam on 26/10/2022.
 //
 
+import SwiftUI
+
 struct Constants {
-  static let CAT_GIFS = [
+  static let BUNDLE_VERSION = (Bundle.main.infoDictionary?["CFBundleShortVersionString"]  as? String) ?? ""
+  static let BUNDLE_NAME = (Bundle.main.infoDictionary!["CFBundleDisplayName"] as? String) ?? ""
+  
+  static let POPOVER_WIDTH: CGFloat = 300
+  static let POPOVER_HEIGHT: CGFloat = 600
+  
+  static let CAT_GIFS: [String] = [
     "cat_01_smile",
     "cat_02_lick",
     "cat_03_nap",
@@ -36,7 +44,7 @@ struct Constants {
   ]
   
   
-  static let COW_GIFS = [
+  static let COW_GIFS: [String] = [
     "cow_01_smile",
     "cow_02_hehe",
     "cow_03_sad",
@@ -71,7 +79,7 @@ struct Constants {
     "cow_32_bus_special",
   ]
   
-  static let DOG_GIFS = [
+  static let DOG_GIFS: [String] = [
     "dog_01_smile",
     "dog_02_hehe",
     "dog_03_haha",
@@ -121,7 +129,7 @@ struct Constants {
     "dog_47_lihkg",
   ]
   
-  static let MOUSE_GIFS = [
+  static let MOUSE_GIFS: [String] = [
     "mouse_01_smile",
     "mouse_02_pray",
     "mouse_03_please",
@@ -160,7 +168,7 @@ struct Constants {
     "mouse_36_lihkg",
   ]
   
-  static let PIG_GIFS = [
+  static let PIG_GIFS: [String] = [
     "pig_01_smile",
     "pig_02_hate",
     "pig_03_smirk",
@@ -205,7 +213,7 @@ struct Constants {
     "pig_42_lihkg",
   ]
   
-  static let TIGER_GIFS = [
+  static let TIGER_GIFS: [String] = [
     "tiger_01_smile",
     "tiger_02_happy",
     "tiger_03_slap",
