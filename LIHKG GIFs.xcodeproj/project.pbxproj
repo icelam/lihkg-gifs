@@ -224,6 +224,7 @@
 		C814AC94290919530004CD14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814AC93290919530004CD14 /* Constants.swift */; };
 		C814AC9B2909AEA90004CD14 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814AC9A2909AEA90004CD14 /* FileManager.swift */; };
 		C814ACA52909B81C0004CD14 /* PasteboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACA42909B81C0004CD14 /* PasteboardManager.swift */; };
+		C814ACAC2909DEDC0004CD14 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACAB2909DEDC0004CD14 /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -447,6 +448,7 @@
 		C814AC93290919530004CD14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C814AC9A2909AEA90004CD14 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		C814ACA42909B81C0004CD14 /* PasteboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardManager.swift; sourceTree = "<group>"; };
+		C814ACAB2909DEDC0004CD14 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -479,14 +481,14 @@
 		C800B35A2908574800962268 /* LIHKG GIFs */ = {
 			isa = PBXGroup;
 			children = (
-				C800B51D2908802700962268 /* GIFs */,
-				C800B36A2908575300962268 /* LIHKG-GIFs-Info.plist */,
-				C814ACA62909B82E0004CD14 /* Utilities */,
 				C800B35B2908574800962268 /* AppDelegate.swift */,
-				C814AC93290919530004CD14 /* Constants.swift */,
-				C800B35F2908574A00962268 /* Assets.xcassets */,
+				C814ACAA2909DEB70004CD14 /* Constants */,
+				C814ACA62909B82E0004CD14 /* Utilities */,
 				C800B3612908574A00962268 /* Main.storyboard */,
 				C800B3642908574A00962268 /* LIHKG_GIFs.entitlements */,
+				C800B36A2908575300962268 /* LIHKG-GIFs-Info.plist */,
+				C800B35F2908574A00962268 /* Assets.xcassets */,
+				C800B51D2908802700962268 /* GIFs */,
 			);
 			path = "LIHKG GIFs";
 			sourceTree = "<group>";
@@ -764,6 +766,15 @@
 				C814AC9A2909AEA90004CD14 /* FileManager.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C814ACAA2909DEB70004CD14 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C814AC93290919530004CD14 /* Constants.swift */,
+				C814ACAB2909DEDC0004CD14 /* Environment.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1050,6 +1061,7 @@
 				C814AC9B2909AEA90004CD14 /* FileManager.swift in Sources */,
 				C800B35C2908574800962268 /* AppDelegate.swift in Sources */,
 				C814ACA52909B81C0004CD14 /* PasteboardManager.swift in Sources */,
+				C814ACAC2909DEDC0004CD14 /* Environment.swift in Sources */,
 				C814AC94290919530004CD14 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

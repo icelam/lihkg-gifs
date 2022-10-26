@@ -45,7 +45,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   func constructStatusMenu() {
     statusMenu.addItem(
       NSMenuItem(
-        title: bundleName + " (v" + bundleShortVersionString! + ")",
+        title: Environment.isDebug ? "\(bundleName) (Development)" : "\(bundleName) (v\(bundleShortVersionString!))",
         action: nil,
         keyEquivalent: ""
       )
