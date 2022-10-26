@@ -18,11 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   
   // Copy GIF file to clipboard
   @objc func copyImage(_ sender: NSMenuItem?) {
-    let imageURL = FileManager.getBundleFile(fileName: sender!.title, fileType: "gif")
-    let pasteBoard = NSPasteboard.general
-    pasteBoard.clearContents()
-    pasteBoard.declareTypes([NSPasteboard.PasteboardType.fileURL], owner: nil)
-    pasteBoard.writeObjects([imageURL! as any NSPasteboardWriting])
+    PasteboardManager.copyImageToPasteboard(fileName: sender!.title)
   }
   
   // Construct status item button
