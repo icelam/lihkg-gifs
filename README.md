@@ -1,6 +1,6 @@
 # LIHKG GIFs
 
-A menu bar app created for easily sending [LIHKG stickers](https://lihkg.com/stickers) to Microsoft Teams.
+A **macOS** menu bar app created for easily sending [LIHKG stickers](https://lihkg.com/stickers) to Microsoft Teams.
 
 This app will try to load a GIF selected by user into the clipboard and simulate keystroke `cmd + v` perform paste automatically.
 
@@ -16,7 +16,7 @@ This app will try to load a GIF selected by user into the clipboard and simulate
 
 ## macOS version supported
 
-* macOS 11.0 or above
+This app is developed and tested on macOS 12.6. However the minimum deployment target is set to 11.0, so you would still be able to use on a older Mac.
 
 ## Available themes
 
