@@ -8,8 +8,16 @@
 import SwiftUI
 import SDWebImageSwiftUI
 
-struct ContentView: View {
-  @State private var selectedCategory = 0
+struct GifPickerView: View {
+  @EnvironmentObject private var integration: GifPickerIntegrationService
+  @State private var selectedCategory: Int = 0
+  private var shouldAnimateGifs: Binding<Bool> {
+    Binding {
+      integration.shouldAnimateGifs
+    } set: {
+      integration.shouldAnimateGifs = $0
+    }
+  }
   
   // Copy GIF file to clipboard
   func copyImage(fileName: String) {
@@ -60,13 +68,30 @@ struct ContentView: View {
                   copyImage(fileName: Constants.GIFS[selectedCategory].value[index])
                 }) {
                   LazyReleaseableWebImage {
-                    // AnimatedImage randomly shows blank image, workaround with WebImage first
-                    // FIXME: use AnimatedImage(name: Constants.GIFS[selectedCategory].value[index] + ".gif")
-                    WebImage(url: FileManager.getBundleFile(fileName: Constants.GIFS[selectedCategory].value[index], fileType: "gif")!)
-                    .purgeable(true)
-                    .onFailure { error in
-                      NSLog("Failed to load GIF image (\(error), \(error.localizedDescription))")
+                    // If a gif image only has single frame, AnimatedImage will appears empty
+                    // Workaround is to use convert command to make 2 frames by combining
+                    // file_name1.gif and file_name.2.gif, which is a copy of file_name.gif
+                    // using command: 
+                    // convert -delay 20 -loop 0 file_name*.gif file_name_animated.gif
+                    AnimatedImage(
+                      url: FileManager.getBundleFile(fileName: Constants.GIFS[selectedCategory].value[index], fileType: "gif"),
+                      isAnimating: shouldAnimateGifs
+                    )
+                    // Workaround for isAnimating not respecting binded value
+                    // https://github.com/SDWebImage/SDWebImageSwiftUI/issues/114
+                    // FIXME: remove onViewCreate and onViewUpdate when issue is fixed
+                    .onViewCreate { view, _ in
+                      let imageView = view as! SDAnimatedImageView
+                      imageView.autoPlayAnimatedImage = false
                     }
+                    .onViewUpdate { view, _ in
+                      let imageView = view as! SDAnimatedImageView
+                      imageView.autoPlayAnimatedImage = true
+                    }
+                    .purgeable(true)
+                    .onFailure(perform: {error in
+                      print("Failed to load GIF image (\(error), \(error.localizedDescription))")
+                    })
                     .resizable()
                   }
                   .aspectRatio(1/1, contentMode: .fit)
@@ -142,8 +167,10 @@ struct ContentView: View {
 
 #if DEBUG
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static let integration: GifPickerIntegrationService = GifPickerIntegrationService()
+  
+  static var previews: some View {
+    GifPickerView().environmentObject(integration)
+  }
 }
 #endif

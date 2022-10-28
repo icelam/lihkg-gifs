@@ -12,10 +12,10 @@ import SDWebImageSwiftUI
 // https://github.com/SDWebImage/SDWebImageSwiftUI/issues/172#issuecomment-797703934
 public struct LazyReleaseableWebImage: View {
   @State private var shouldShowImage: Bool = false
-  private let content: () -> WebImage
+  private let content: () -> AnimatedImage
   
   public init(
-    @ViewBuilder content: @escaping () -> WebImage
+    @ViewBuilder content: @escaping () -> AnimatedImage
   ) {
     self.content = content
   }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C800B6D92908FB7000962268 /* LIHKG_GIFsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800B6D82908FB7000962268 /* LIHKG_GIFsApp.swift */; };
-		C800B6DB2908FB7000962268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800B6DA2908FB7000962268 /* ContentView.swift */; };
+		C800B6DB2908FB7000962268 /* GifPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800B6DA2908FB7000962268 /* GifPickerView.swift */; };
 		C800B6DD2908FB7200962268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C800B6DC2908FB7200962268 /* Assets.xcassets */; };
 		C800B6E02908FB7200962268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C800B6DF2908FB7200962268 /* Preview Assets.xcassets */; };
 		C800B7C22909079100962268 /* cat_19_unwell.gif in Resources */ = {isa = PBXBuildFile; fileRef = C800B6EA2909077600962268 /* cat_19_unwell.gif */; };
@@ -230,12 +230,13 @@
 		C814ACB0290A82D80004CD14 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACAF290A82D70004CD14 /* IconButton.swift */; };
 		C814ACB4290A8D210004CD14 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C814ACB3290A8D210004CD14 /* SDWebImageSwiftUI */; };
 		C814ACB8290AEEE40004CD14 /* LazyReleaseableWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACB7290AEEE40004CD14 /* LazyReleaseableWebImage.swift */; };
+		C814ACBB290B9B140004CD14 /* GifPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACBA290B9B140004CD14 /* GifPickerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C800B6D52908FB7000962268 /* LIHKG GIFs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LIHKG GIFs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C800B6D82908FB7000962268 /* LIHKG_GIFsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIHKG_GIFsApp.swift; sourceTree = "<group>"; };
-		C800B6DA2908FB7000962268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C800B6DA2908FB7000962268 /* GifPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifPickerView.swift; sourceTree = "<group>"; };
 		C800B6DC2908FB7200962268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C800B6DF2908FB7200962268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C800B6E12908FB7200962268 /* LIHKG_GIFs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LIHKG_GIFs.entitlements; sourceTree = "<group>"; };
@@ -458,6 +459,7 @@
 		C814ACAD290A5A630004CD14 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		C814ACAF290A82D70004CD14 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		C814ACB7290AEEE40004CD14 /* LazyReleaseableWebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyReleaseableWebImage.swift; sourceTree = "<group>"; };
+		C814ACBA290B9B140004CD14 /* GifPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifPickerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -492,6 +494,7 @@
 			isa = PBXGroup;
 			children = (
 				C800B6D82908FB7000962268 /* LIHKG_GIFsApp.swift */,
+				C814ACB9290B9AF30004CD14 /* Controller */,
 				C814AC9C2909B0600004CD14 /* Views */,
 				C814ACA72909DB400004CD14 /* Constants */,
 				C814ACA32909B7B90004CD14 /* Utilities */,
@@ -782,7 +785,7 @@
 			isa = PBXGroup;
 			children = (
 				C814ACB1290A8A510004CD14 /* Components */,
-				C800B6DA2908FB7000962268 /* ContentView.swift */,
+				C800B6DA2908FB7000962268 /* GifPickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -813,6 +816,14 @@
 				C814ACB7290AEEE40004CD14 /* LazyReleaseableWebImage.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		C814ACB9290B9AF30004CD14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C814ACBA290B9B140004CD14 /* GifPickerController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1102,8 +1113,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C814ACBB290B9B140004CD14 /* GifPickerController.swift in Sources */,
 				C814ACB0290A82D80004CD14 /* IconButton.swift in Sources */,
-				C800B6DB2908FB7000962268 /* ContentView.swift in Sources */,
+				C800B6DB2908FB7000962268 /* GifPickerView.swift in Sources */,
 				C814ACB8290AEEE40004CD14 /* LazyReleaseableWebImage.swift in Sources */,
 				C814ACA22909B6F50004CD14 /* PasteboardManager.swift in Sources */,
 				C814ACA92909DB580004CD14 /* Environment.swift in Sources */,

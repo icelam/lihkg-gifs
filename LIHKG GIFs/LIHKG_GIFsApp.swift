@@ -16,13 +16,15 @@ struct LIHKG_GIFsApp: App {
   }
 }
 
-class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSPopoverDelegate {
   var bundleShortVersionString = Constants.BUNDLE_VERSION
   let bundleName = Constants.BUNDLE_NAME
   
   var statusItem: NSStatusItem!
   let statusMenu = NSMenu()
   let popover = NSPopover()
+  
+  let integration = GifPickerIntegrationService()
   
   // Opens menu on right click of status item and popover on left click
   @objc func handleButtonClick(sender: AnyObject) {
@@ -88,13 +90,24 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     constructStatusMenu()
     
     // Construct popover
+    popover.delegate = self
     popover.behavior = NSPopover.Behavior.transient
-    popover.contentViewController = NSHostingController(rootView: ContentView())
+    popover.contentViewController = GifPickerViewController(integration)
     popover.contentSize = NSSize(width: Constants.POPOVER_WIDTH, height: Constants.POPOVER_HEIGHT)
   }
   
   // Unregister menu to prevent opening on left click
   func menuDidClose(_ menu: NSMenu) {
     statusItem.menu = nil
+  }
+  
+  // Stop GIF animation inside popover to reduce CPU and memory using
+  func popoverWillClose(_ notification: Notification) {
+    integration.shouldAnimateGifs = false;
+  }
+  
+  // Start GIF animation inside popover
+  func popoverWillShow(_ notification: Notification) {
+    integration.shouldAnimateGifs = true;
   }
 }
