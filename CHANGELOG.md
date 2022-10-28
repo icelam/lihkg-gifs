@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/icelam/lihkg-gifs/compare/v1.0.0...v1.0.1) (2022-10-28)
+
+
+### Bug Fixes
+
+* reduce cpu and memory usage when popover is not visible ([c94c022](https://github.com/icelam/lihkg-gifs/commit/c94c0221b71c0704840e01b208d4ec337840c727))
+
 ## 1.0.0 (2022-10-27)
 
 
