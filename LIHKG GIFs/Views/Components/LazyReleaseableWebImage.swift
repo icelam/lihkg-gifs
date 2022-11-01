@@ -21,7 +21,7 @@ public struct LazyReleaseableWebImage: View {
   }
   
   public var body: some View {
-    return ZStack {
+    ZStack {
       if shouldShowImage {
         content()
       }

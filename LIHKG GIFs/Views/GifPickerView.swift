@@ -90,7 +90,7 @@ struct GifPickerView: View {
                     }
                     .purgeable(true)
                     .onFailure(perform: {error in
-                      print("Failed to load GIF image (\(error), \(error.localizedDescription))")
+                      NSLog("Failed to load GIF image (\(error), \(error.localizedDescription))")
                     })
                     .resizable()
                   }

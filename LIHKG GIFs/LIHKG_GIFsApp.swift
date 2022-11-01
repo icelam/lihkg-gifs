@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SDWebImage
 
 @main
 struct LIHKG_GIFsApp: App {
@@ -96,6 +97,17 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSPopoverDel
     popover.contentSize = NSSize(width: Constants.POPOVER_WIDTH, height: Constants.POPOVER_HEIGHT)
   }
   
+  // Release memory and clear any image cache to prevent loading of an old version GIF
+  func clearImageCache() {
+    SDImageCache.shared.clearMemory()
+    SDImageCache.shared.clearDisk()
+  }
+  
+  // Applicatio closes
+  func applicationWillTerminate(_ notification: Notification) {
+    clearImageCache()
+  }
+  
   // Unregister menu to prevent opening on left click
   func menuDidClose(_ menu: NSMenu) {
     statusItem.menu = nil
@@ -103,11 +115,11 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSPopoverDel
   
   // Stop GIF animation inside popover to reduce CPU and memory using
   func popoverWillClose(_ notification: Notification) {
-    integration.shouldAnimateGifs = false;
+    integration.shouldAnimateGifs = false
   }
   
   // Start GIF animation inside popover
   func popoverWillShow(_ notification: Notification) {
-    integration.shouldAnimateGifs = true;
+    integration.shouldAnimateGifs = true
   }
 }
