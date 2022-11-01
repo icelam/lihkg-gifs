@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://github.com/icelam/lihkg-gifs/compare/v1.0.1...v1.0.2) (2022-11-01)
+
+
+### Bug Fixes
+
+* older version of GIF is being load due to image cache ([4e15053](https://github.com/icelam/lihkg-gifs/commit/4e15053b67f3d8aabb1ea6f4ba1d587674b63772))
+
 ### [1.0.1](https://github.com/icelam/lihkg-gifs/compare/v1.0.0...v1.0.1) (2022-10-28)
 
 
