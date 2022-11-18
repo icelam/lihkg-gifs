@@ -1,5 +1,17 @@
 # Changelog
 
+### [1.0.3](https://github.com/icelam/lihkg-gifs/compare/v1.0.2...v1.0.3) (2022-11-18)
+
+
+### Features
+
+* add new tiger_29_404 gif ([c45ce1a](https://github.com/icelam/lihkg-gifs/commit/c45ce1a675d6cbfcfe53a00374774344abd74071))
+
+
+### Bug Fixes
+
+* adjust delay of frames in tiger_20_like2 ([3564c37](https://github.com/icelam/lihkg-gifs/commit/3564c37759df68808ae6727d82f22ff32af270ab))
+
 ### [1.0.2](https://github.com/icelam/lihkg-gifs/compare/v1.0.1...v1.0.2) (2022-11-01)
 
 
