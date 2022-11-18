@@ -231,6 +231,7 @@
 		C814ACB4290A8D210004CD14 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C814ACB3290A8D210004CD14 /* SDWebImageSwiftUI */; };
 		C814ACB8290AEEE40004CD14 /* LazyReleaseableWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACB7290AEEE40004CD14 /* LazyReleaseableWebImage.swift */; };
 		C814ACBB290B9B140004CD14 /* GifPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACBA290B9B140004CD14 /* GifPickerController.swift */; };
+		C86A90D12927A6B800DB6799 /* tiger_29_404.gif in Resources */ = {isa = PBXBuildFile; fileRef = C86A90D02927A6B800DB6799 /* tiger_29_404.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -460,6 +461,7 @@
 		C814ACAF290A82D70004CD14 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		C814ACB7290AEEE40004CD14 /* LazyReleaseableWebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyReleaseableWebImage.swift; sourceTree = "<group>"; };
 		C814ACBA290B9B140004CD14 /* GifPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifPickerController.swift; sourceTree = "<group>"; };
+		C86A90D02927A6B800DB6799 /* tiger_29_404.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tiger_29_404.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -695,6 +697,7 @@
 				C800B7792909077600962268 /* tiger_25_sad_special.gif */,
 				C800B77A2909077600962268 /* tiger_04_bye.gif */,
 				C800B77B2909077600962268 /* tiger_18_champagne.gif */,
+				C86A90D02927A6B800DB6799 /* tiger_29_404.gif */,
 			);
 			path = tiger;
 			sourceTree = "<group>";
@@ -1032,6 +1035,7 @@
 				C800B84D2909079200962268 /* tiger_08_sad.gif in Resources */,
 				C800B84E2909079200962268 /* tiger_25_sad_special.gif in Resources */,
 				C800B84F2909079200962268 /* tiger_04_bye.gif in Resources */,
+				C86A90D12927A6B800DB6799 /* tiger_29_404.gif in Resources */,
 				C800B8502909079200962268 /* tiger_18_champagne.gif in Resources */,
 				C800B8512909079200962268 /* mouse_13_cheerleading.gif in Resources */,
 				C800B8522909079200962268 /* mouse_36_lihkg.gif in Resources */,

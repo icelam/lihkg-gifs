@@ -242,6 +242,7 @@ struct Constants {
     "tiger_26_shock_special",
     "tiger_27_like_special",
     "tiger_28_punch_special",
+    "tiger_29_404"
   ]
   
   static let GIFS: KeyValuePairs = [
