@@ -114,48 +114,15 @@ struct GifPickerView: View {
       
       Divider()
       
-      HStack(spacing: 15) {
-        IconButton(
-          iconName: "Thumbnails/" + Constants.CAT_GIFS[0],
-          action: {
-            selectedCategory = 0
-          }
-        )
-        
-        IconButton(
-          iconName: "Thumbnails/" + Constants.COW_GIFS[0],
-          action: {
-            selectedCategory = 1
-          }
-        )
-        
-        IconButton(
-          iconName: "Thumbnails/" + Constants.DOG_GIFS[13],
-          action: {
-            selectedCategory = 2
-          }
-        )
-        
-        IconButton(
-          iconName: "Thumbnails/" + Constants.MOUSE_GIFS[0],
-          action: {
-            selectedCategory = 3
-          }
-        )
-        
-        IconButton(
-          iconName: "Thumbnails/" + Constants.PIG_GIFS[0],
-          action: {
-            selectedCategory = 4
-          }
-        )
-        
-        IconButton(
-          iconName: "Thumbnails/" + Constants.TIGER_GIFS[0],
-          action: {
-            selectedCategory = 5
-          }
-        )
+      HStack(spacing: 8) {
+        ForEach(Constants.GIFS.indices, id: \.self) { index in
+          IconButton(
+            iconName: "Thumbnails/" +  Constants.GIFS[index].key,
+            action: {
+              selectedCategory = index
+            }
+          )
+        }
       }
           
       Spacer()

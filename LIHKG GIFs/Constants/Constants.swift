@@ -213,6 +213,45 @@ struct Constants {
     "pig_42_lihkg",
   ]
   
+  static let RABBIT_GIFS: [String] = [
+    "rabbit_01_smile",
+    "rabbit_02_smile2",
+    "rabbit_03_happy",
+    "rabbit_04_haha",
+    "rabbit_05_clap",
+    "rabbit_06_agree",
+    "rabbit_07_music",
+    "rabbit_08_bye",
+    "rabbit_09_blink",
+    "rabbit_10_hear",
+    "rabbit_11_confuse",
+    "rabbit_12_wtf",
+    "rabbit_13_angry",
+    "rabbit_14_axe",
+    "rabbit_15_banghead",
+    "rabbit_16_orange",
+    "rabbit_17_emo",
+    "rabbit_18_sweat",
+    "rabbit_19_trauma",
+    "rabbit_20_sad",
+    "rabbit_21_creepy",
+    "rabbit_22_scary",
+    "rabbit_23_drink",
+    "rabbit_24_eat",
+    "rabbit_25_saw",
+    "rabbit_26_stun",
+    "rabbit_27_tape",
+    "rabbit_28_yawn",
+    "rabbit_29_fly",
+    "rabbit_30_lihkg",
+    "rabbit_31_clap_special",
+    "rabbit_32_eat_connect",
+    "rabbit_33_hammer_connect",
+    "rabbit_34_lihkg_special",
+    "rabbit_35_roast_connect",
+    "rabbit_36_roast_special"
+  ]
+  
   static let TIGER_GIFS: [String] = [
     "tiger_01_smile",
     "tiger_02_happy",
@@ -246,11 +285,12 @@ struct Constants {
   ]
   
   static let GIFS: KeyValuePairs = [
-    "Cat": CAT_GIFS,
-    "Cow": COW_GIFS,
-    "Dog": DOG_GIFS,
-    "Mouse": MOUSE_GIFS,
-    "Pig": PIG_GIFS,
-    "Tiger": TIGER_GIFS
+    "cat": CAT_GIFS,
+    "cow": COW_GIFS,
+    "dog": DOG_GIFS,
+    "mouse": MOUSE_GIFS,
+    "pig": PIG_GIFS,
+    "rabbit": RABBIT_GIFS,
+    "tiger": TIGER_GIFS
   ]
 }
