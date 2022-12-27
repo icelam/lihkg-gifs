@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/icelam/lihkg-gifs/compare/v1.0.3...v1.1.0) (2022-12-27)
+
+
+### Features
+
+* add rabbit gif set ([2e95466](https://github.com/icelam/lihkg-gifs/commit/2e95466010256fe7c138ea18af9d2c866a8cacf7))
+
 ### [1.0.3](https://github.com/icelam/lihkg-gifs/compare/v1.0.2...v1.0.3) (2022-11-18)
 
 
