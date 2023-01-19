@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/icelam/lihkg-gifs/compare/v1.1.0...v1.2.0) (2023-01-19)
+
+
+### Features
+
+* change rabbit gifs to hd set ([3d66d9d](https://github.com/icelam/lihkg-gifs/commit/3d66d9da20d72c5e2d0f9385c68e4aa75737d83b))
+
+
+### Bug Fixes
+
+* adjust delay of frames in tiger_29_404 ([9ca7ec2](https://github.com/icelam/lihkg-gifs/commit/9ca7ec22e4252d24aebeade11517f6b1cc1d353a))
+
 ## [1.1.0](https://github.com/icelam/lihkg-gifs/compare/v1.0.3...v1.1.0) (2022-12-27)
 
 
