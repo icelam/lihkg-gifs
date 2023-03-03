@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://github.com/icelam/lihkg-gifs/compare/v1.2.0...v1.2.1) (2023-03-03)
+
+
+### Bug Fixes
+
+* adjust delay of frames in rabbit_06_agree ([863854a](https://github.com/icelam/lihkg-gifs/commit/863854a2ed51994649bae8ceb16c8b3fac69aa1b))
+
 ## [1.2.0](https://github.com/icelam/lihkg-gifs/compare/v1.1.0...v1.2.0) (2023-01-19)
 
 
