@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5AAC5842DE817F6009465A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5AAC5822DE817F6009465A3 /* Localizable.strings */; };
 		C800B6D92908FB7000962268 /* LIHKG_GIFsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800B6D82908FB7000962268 /* LIHKG_GIFsApp.swift */; };
 		C800B6DB2908FB7000962268 /* GifPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800B6DA2908FB7000962268 /* GifPickerView.swift */; };
 		C800B6DD2908FB7200962268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C800B6DC2908FB7200962268 /* Assets.xcassets */; };
@@ -224,7 +225,6 @@
 		C800B8942909079300962268 /* cow_13_sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = C800B7C12909077600962268 /* cow_13_sleep.gif */; };
 		C814AC92290911E40004CD14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814AC91290911E40004CD14 /* Constants.swift */; };
 		C814AC992909ADFD0004CD14 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814AC982909ADFD0004CD14 /* FileManager.swift */; };
-		C814ACA22909B6F50004CD14 /* PasteboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACA12909B6F50004CD14 /* PasteboardManager.swift */; };
 		C814ACA92909DB580004CD14 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACA82909DB580004CD14 /* Environment.swift */; };
 		C814ACAE290A5A630004CD14 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACAD290A5A630004CD14 /* NotificationManager.swift */; };
 		C814ACB0290A82D80004CD14 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACAF290A82D70004CD14 /* IconButton.swift */; };
@@ -271,6 +271,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5AAC5832DE817F6009465A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C800B6D52908FB7000962268 /* LIHKG GIFs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LIHKG GIFs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C800B6D82908FB7000962268 /* LIHKG_GIFsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIHKG_GIFsApp.swift; sourceTree = "<group>"; };
 		C800B6DA2908FB7000962268 /* GifPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifPickerView.swift; sourceTree = "<group>"; };
@@ -491,7 +492,6 @@
 		C800B7C12909077600962268 /* cow_13_sleep.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cow_13_sleep.gif; sourceTree = "<group>"; };
 		C814AC91290911E40004CD14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C814AC982909ADFD0004CD14 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
-		C814ACA12909B6F50004CD14 /* PasteboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardManager.swift; sourceTree = "<group>"; };
 		C814ACA82909DB580004CD14 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		C814ACAD290A5A630004CD14 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		C814ACAF290A82D70004CD14 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
@@ -536,6 +536,10 @@
 		C86A90D02927A6B800DB6799 /* tiger_29_404.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tiger_29_404.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C5AAC5852DE81CE9009465A3 /* Services */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Services; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		C800B6D22908FB7000962268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -551,6 +555,7 @@
 		C800B6CC2908FB7000962268 = {
 			isa = PBXGroup;
 			children = (
+				C5AAC5822DE817F6009465A3 /* Localizable.strings */,
 				C800B6D72908FB7000962268 /* LIHKG GIFs */,
 				C800B6D62908FB7000962268 /* Products */,
 			);
@@ -577,6 +582,7 @@
 				C800B6E72909075D00962268 /* LIHKG-GIFs-Info.plist */,
 				C800B6E82909077600962268 /* GIFs */,
 				C800B6DE2908FB7200962268 /* Preview Content */,
+				C5AAC5852DE81CE9009465A3 /* Services */,
 			);
 			path = "LIHKG GIFs";
 			sourceTree = "<group>";
@@ -870,7 +876,6 @@
 			isa = PBXGroup;
 			children = (
 				C814AC982909ADFD0004CD14 /* FileManager.swift */,
-				C814ACA12909B6F50004CD14 /* PasteboardManager.swift */,
 				C814ACAD290A5A630004CD14 /* NotificationManager.swift */,
 			);
 			path = Utilities;
@@ -960,6 +965,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C5AAC5852DE81CE9009465A3 /* Services */,
 			);
 			name = "LIHKG GIFs";
 			packageProductDependencies = (
@@ -1167,6 +1175,7 @@
 				C85E0B7A295AD6790059683A /* rabbit_18_sweat.gif in Resources */,
 				C800B8462909079200962268 /* tiger_10_donno.gif in Resources */,
 				C800B8472909079200962268 /* tiger_28_punch_special.gif in Resources */,
+				C5AAC5842DE817F6009465A3 /* Localizable.strings in Resources */,
 				C800B8482909079200962268 /* tiger_22_rpg7.gif in Resources */,
 				C800B8492909079200962268 /* tiger_23_lihkg.gif in Resources */,
 				C800B84A2909079200962268 /* tiger_03_slap.gif in Resources */,
@@ -1274,7 +1283,6 @@
 				C814ACB0290A82D80004CD14 /* IconButton.swift in Sources */,
 				C800B6DB2908FB7000962268 /* GifPickerView.swift in Sources */,
 				C814ACB8290AEEE40004CD14 /* LazyReleaseableWebImage.swift in Sources */,
-				C814ACA22909B6F50004CD14 /* PasteboardManager.swift in Sources */,
 				C814ACA92909DB580004CD14 /* Environment.swift in Sources */,
 				C800B6D92908FB7000962268 /* LIHKG_GIFsApp.swift in Sources */,
 				C814AC92290911E40004CD14 /* Constants.swift in Sources */,
@@ -1284,6 +1292,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5AAC5822DE817F6009465A3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AAC5832DE817F6009465A3 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C800B6E22908FB7200962268 /* Debug */ = {
@@ -1342,6 +1361,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1395,6 +1415,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;

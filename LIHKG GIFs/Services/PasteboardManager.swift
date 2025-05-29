@@ -1,5 +1,5 @@
 //
-//  PasteboardManager.swift
+//  PasteboardService.swift
 //  LIHKG GIFs
 //
 //  Created by Ice Lam on 27/10/2022.
@@ -8,7 +8,7 @@
 import Cocoa
 import Carbon.HIToolbox
 
-class PasteboardManager: NSObject {
+class PasteboardService: NSObject {
   static func copyImageToPasteboard(fileName: String) {
     let imageURL = FileManager.getBundleFile(fileName: fileName, fileType: "gif")
     let pasteBoard = NSPasteboard.general
@@ -18,6 +18,12 @@ class PasteboardManager: NSObject {
   }
   
   static func paste() {
+    // Require Accessibility Permission
+    guard PermissionService.aquireAccessibilityPriviledge(isPrompt: false) else {
+      PermissionService.showRequireAccessibilityPriviledgeAlert()
+      return
+    }
+    
     let vKeyCode = CGKeyCode(kVK_ANSI_V)
     DispatchQueue.main.async {
       let source = CGEventSource(stateID: .combinedSessionState)

@@ -76,7 +76,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSPopoverDel
     statusMenu.addItem(NSMenuItem.separator())
     statusMenu.addItem(
       NSMenuItem(
-        title: "Quit",
+        title: NSLocalizedString("QUIT", comment: ""),
         action: #selector(NSApplication.terminate(_:)),
         keyEquivalent: "q"
       )
@@ -87,6 +87,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSPopoverDel
   
   // Application starts
   func applicationDidFinishLaunching(_ aNotification: Notification) {
+    // Request Accessibility Permission
+    PermissionService.aquireAccessibilityPriviledge(isPrompt: true)
+    
     constructStatusItemButton()
     constructStatusMenu()
     

@@ -21,21 +21,8 @@ struct GifPickerView: View {
   
   // Copy GIF file to clipboard
   func copyImage(fileName: String) {
-    PasteboardManager.copyImageToPasteboard(fileName: fileName)
-    
-    let options: NSDictionary = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String : true]
-    let accessEnabled = AXIsProcessTrustedWithOptions(options)
-
-    if accessEnabled {
-      PasteboardManager.paste()
-    } else {
-      NSLog("Not enough permission to execute paste command")
-      
-      NotificationManager.send(
-        title: "Unable to paste GIF",
-        body: "The GIF image were loaded to clipboard, but we could not paste the GIF due to insufficient permission. Please make sure you have grant \"Accessability\" permission to this app by going to System Preferences > Security & Privacy > Priacy > Accessability > Check \"\(Constants.BUNDLE_NAME)\"."
-      )
-    }
+    PasteboardService.copyImageToPasteboard(fileName: fileName)
+    PasteboardService.paste()
   }
   
   var body: some View {

@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LIHKG GIFs
+
+  Created by Ice Lam on 29/5/2025.
+  
+*/
+"ACCESSIBILITY_PERMISSION_REQUIRED_ALERT_BUTTON" = "Open System Preferences";
+"ACCESSIBILITY_PERMISSION_REQUIRED_ALERT_DESCRIPTION" = "This app needs accessibility permission to help you copy and paste GIFs. Please grant access in System Preferences.";
+"ACCESSIBILITY_PERMISSION_REQUIRED_ALERT_TITLE" = "Accessibility Permission Required";
+"QUIT" = "Quit";
