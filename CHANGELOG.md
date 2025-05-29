@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/icelam/lihkg-gifs/compare/v1.2.1...v1.3.0) (2025-05-29)
+
+
+### Features
+
+* add dragon and snake sticker set ([1a24ab8](https://github.com/icelam/lihkg-gifs/commit/1a24ab8fca0aacc6e19c234d663aa1efc66d3845))
+* prompt to request accessibility permission on app launch ([f119547](https://github.com/icelam/lihkg-gifs/commit/f119547f720e9f755d208dc922487a74f32c8116))
+
 ### [1.2.1](https://github.com/icelam/lihkg-gifs/compare/v1.2.0...v1.2.1) (2023-03-03)
 
 
