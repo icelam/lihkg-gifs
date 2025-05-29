@@ -129,6 +129,43 @@ struct Constants {
     "dog_47_lihkg",
   ]
   
+  static let DRAGON_GIFS: [String] = [
+    "dragon_01_smile",
+    "dragon_02_happy",
+    "dragon_03_unclehappy",
+    "dragon_04_unclehappy2",
+    "dragon_05_lick",
+    "dragon_06_lick2",
+    "dragon_07_gj",
+    "dragon_08_disappear",
+    "dragon_09_guitar",
+    "dragon_10_bye",
+    "dragon_11_eat",
+    "dragon_12_ok",
+    "dragon_13_drink",
+    "dragon_14_think",
+    "dragon_15_wtf",
+    "dragon_16_phone",
+    "dragon_17_mindblown",
+    "dragon_18_wheelchair",
+    "dragon_19_angry",
+    "dragon_20_headache",
+    "dragon_21_spit",
+    "dragon_22_midfinger",
+    "dragon_23_laser",
+    "dragon_24_read",
+    "dragon_25_sad",
+    "dragon_26_sad2",
+    "dragon_27_nope",
+    "dragon_28_shock",
+    "dragon_29_backpain",
+    "dragon_30_shiver",
+    "dragon_31_z",
+    "dragon_32_wind",
+    "dragon_33_lihkg",
+    "dragon_34_angry_special",
+  ]
+  
   static let MOUSE_GIFS: [String] = [
     "mouse_01_smile",
     "mouse_02_pray",
@@ -284,13 +321,45 @@ struct Constants {
     "tiger_29_404"
   ]
   
+  static let SNAKE_GIFS: [String] = [
+    "snake_01_smile",
+    "snake_02_laugh",
+    "snake_03_nose",
+    "snake_04_want",
+    "snake_05_knife",
+    "snake_06_shotgun",
+    "snake_07_explosion",
+    "snake_08_sweat",
+    "snake_09_write",
+    "snake_10_confuse",
+    "snake_11_wtf",
+    "snake_12_scream",
+    "snake_13_shock",
+    "snake_14_wow",
+    "snake_15_boring",
+    "snake_16_sad",
+    "snake_17_bye",
+    "snake_18_eat",
+    "snake_19_drink",
+    "snake_20_think",
+    "snake_21_hypnosis",
+    "snake_22_arcade",
+    "snake_23_sign",
+    "snake_24_zzz",
+    "snake_25_lihkg",
+    "snake_26_shotgun_special",
+    "snake_27_eat_special",
+  ]
+  
   static let GIFS: KeyValuePairs = [
     "cat": CAT_GIFS,
     "cow": COW_GIFS,
     "dog": DOG_GIFS,
+    "dragon": DRAGON_GIFS,
     "mouse": MOUSE_GIFS,
     "pig": PIG_GIFS,
     "rabbit": RABBIT_GIFS,
-    "tiger": TIGER_GIFS
+    "tiger": TIGER_GIFS,
+    "snake": SNAKE_GIFS
   ]
 }

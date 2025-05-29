@@ -101,15 +101,18 @@ struct GifPickerView: View {
       
       Divider()
       
-      HStack(spacing: 8) {
-        ForEach(Constants.GIFS.indices, id: \.self) { index in
-          IconButton(
-            iconName: "Thumbnails/" +  Constants.GIFS[index].key,
-            action: {
-              selectedCategory = index
-            }
-          )
+      ScrollView(.horizontal, showsIndicators: false) {
+        HStack(spacing: 8) {
+          ForEach(Constants.GIFS.indices, id: \.self) { index in
+            IconButton(
+              iconName: "Thumbnails/" +  Constants.GIFS[index].key,
+              action: {
+                selectedCategory = index
+              }
+            )
+          }
         }
+        .padding([.horizontal], 10)
       }
           
       Spacer()
