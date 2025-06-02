@@ -67,5 +67,8 @@ fastlane/test_output
 
 iOSInjectionProject/
 
+# Download assets
+download/
+
 # Misc
 .DS_STORE

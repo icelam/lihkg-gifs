@@ -1,5 +1,5 @@
-Stickers assets available at https://lihkg.com/stickers. To convert APNG to GIF, use the following command:
+Stickers assets available at https://lihkg.com/stickers. To convert APNG to GIF, run the following command at root directory:
 
 ```
-magick APNG:image.png -coalesce -layers optimize image.gif
+sh download.sh
 ```
