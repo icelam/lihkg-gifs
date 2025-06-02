@@ -340,7 +340,6 @@
 		C814AC92290911E40004CD14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814AC91290911E40004CD14 /* Constants.swift */; };
 		C814AC992909ADFD0004CD14 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814AC982909ADFD0004CD14 /* FileManager.swift */; };
 		C814ACA92909DB580004CD14 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACA82909DB580004CD14 /* Environment.swift */; };
-		C814ACAE290A5A630004CD14 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACAD290A5A630004CD14 /* NotificationManager.swift */; };
 		C814ACB0290A82D80004CD14 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACAF290A82D70004CD14 /* IconButton.swift */; };
 		C814ACB4290A8D210004CD14 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C814ACB3290A8D210004CD14 /* SDWebImageSwiftUI */; };
 		C814ACB8290AEEE40004CD14 /* LazyReleaseableWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACB7290AEEE40004CD14 /* LazyReleaseableWebImage.swift */; };
@@ -684,7 +683,6 @@
 		C814AC91290911E40004CD14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C814AC982909ADFD0004CD14 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		C814ACA82909DB580004CD14 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		C814ACAD290A5A630004CD14 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		C814ACAF290A82D70004CD14 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		C814ACB7290AEEE40004CD14 /* LazyReleaseableWebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyReleaseableWebImage.swift; sourceTree = "<group>"; };
 		C814ACBA290B9B140004CD14 /* GifPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifPickerController.swift; sourceTree = "<group>"; };
@@ -1166,7 +1164,6 @@
 			isa = PBXGroup;
 			children = (
 				C814AC982909ADFD0004CD14 /* FileManager.swift */,
-				C814ACAD290A5A630004CD14 /* NotificationManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -1609,7 +1606,6 @@
 				C814ACA92909DB580004CD14 /* Environment.swift in Sources */,
 				C800B6D92908FB7000962268 /* LIHKG_GIFsApp.swift in Sources */,
 				C814AC92290911E40004CD14 /* Constants.swift in Sources */,
-				C814ACAE290A5A630004CD14 /* NotificationManager.swift in Sources */,
 				C814AC992909ADFD0004CD14 /* FileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

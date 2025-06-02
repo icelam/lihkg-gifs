@@ -39,10 +39,4 @@ class PermissionService: NSObject {
     guard let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_Accessibility") else { return false }
     return NSWorkspace.shared.open(url)
   }
-  
-  static func acquireNotificationPriviledge() {
-    UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound, .provisional]) { enabled, _ in
-      NSLog("Notification permissions \(enabled ? "" : "not ")granted")
-    }
-  }
 }
