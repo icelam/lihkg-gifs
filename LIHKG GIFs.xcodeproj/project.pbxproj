@@ -332,6 +332,7 @@
 		C53E7B752DED57A100D76016 /* snake_05_knife.gif in Resources */ = {isa = PBXBuildFile; fileRef = C53E79FA2DED57A100D76016 /* snake_05_knife.gif */; };
 		C53E7B762DED57A100D76016 /* tiger_10_donno.gif in Resources */ = {isa = PBXBuildFile; fileRef = C53E7A1B2DED57A100D76016 /* tiger_10_donno.gif */; };
 		C53E7B782DED5FD700D76016 /* tiger_31_404.gif in Resources */ = {isa = PBXBuildFile; fileRef = C53E7B772DED5FD700D76016 /* tiger_31_404.gif */; };
+		C53E7B7B2DED64CD00D76016 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C53E7B7A2DED64CD00D76016 /* SDWebImageSwiftUI */; };
 		C5AAC5842DE817F6009465A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5AAC5822DE817F6009465A3 /* Localizable.strings */; };
 		C800B6D92908FB7000962268 /* LIHKG_GIFsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800B6D82908FB7000962268 /* LIHKG_GIFsApp.swift */; };
 		C800B6DB2908FB7000962268 /* GifPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800B6DA2908FB7000962268 /* GifPickerView.swift */; };
@@ -341,7 +342,6 @@
 		C814AC992909ADFD0004CD14 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814AC982909ADFD0004CD14 /* FileManager.swift */; };
 		C814ACA92909DB580004CD14 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACA82909DB580004CD14 /* Environment.swift */; };
 		C814ACB0290A82D80004CD14 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACAF290A82D70004CD14 /* IconButton.swift */; };
-		C814ACB4290A8D210004CD14 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C814ACB3290A8D210004CD14 /* SDWebImageSwiftUI */; };
 		C814ACB8290AEEE40004CD14 /* LazyReleaseableWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACB7290AEEE40004CD14 /* LazyReleaseableWebImage.swift */; };
 		C814ACBB290B9B140004CD14 /* GifPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814ACBA290B9B140004CD14 /* GifPickerController.swift */; };
 /* End PBXBuildFile section */
@@ -697,7 +697,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C814ACB4290A8D210004CD14 /* SDWebImageSwiftUI in Frameworks */,
+				C53E7B7B2DED64CD00D76016 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1214,7 +1214,7 @@
 			);
 			name = "LIHKG GIFs";
 			packageProductDependencies = (
-				C814ACB3290A8D210004CD14 /* SDWebImageSwiftUI */,
+				C53E7B7A2DED64CD00D76016 /* SDWebImageSwiftUI */,
 			);
 			productName = "LIHKG GIFs";
 			productReference = C800B6D52908FB7000962268 /* LIHKG GIFs.app */;
@@ -1245,7 +1245,7 @@
 			);
 			mainGroup = C800B6CC2908FB7000962268;
 			packageReferences = (
-				C814ACB2290A8D210004CD14 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				C53E7B792DED64CD00D76016 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = C800B6D62908FB7000962268 /* Products */;
 			projectDirPath = "";
@@ -1831,20 +1831,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C814ACB2290A8D210004CD14 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		C53E7B792DED64CD00D76016 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 3.1.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C814ACB3290A8D210004CD14 /* SDWebImageSwiftUI */ = {
+		C53E7B7A2DED64CD00D76016 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C814ACB2290A8D210004CD14 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = C53E7B792DED64CD00D76016 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
