@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.1](https://github.com/icelam/lihkg-gifs/compare/v1.3.0...v1.3.1) (2025-06-02)
+
+
+### Bug Fixes
+
+* generate better quality gif optimized for transparency ([e43154b](https://github.com/icelam/lihkg-gifs/commit/e43154b5abbf1e5394a7c42164728646336f6b6b))
+
 ## [1.3.0](https://github.com/icelam/lihkg-gifs/compare/v1.2.1...v1.3.0) (2025-05-29)
 
 
