@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/icelam/lihkg-gifs/compare/v1.3.1...v1.4.0) (2026-01-06)
+
+
+### Features
+
+* add horse sticker set ([032f0cb](https://github.com/icelam/lihkg-gifs/commit/032f0cb478e408f23b27e9d2d7d2713416fe47d9))
+
 ### [1.3.1](https://github.com/icelam/lihkg-gifs/compare/v1.3.0...v1.3.1) (2025-06-02)
 
 
