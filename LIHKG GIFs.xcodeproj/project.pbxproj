@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5248FEC2F0CDDA0007507D7 /* horse_18_angry.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FDB2F0CDDA0007507D7 /* horse_18_angry.gif */; };
+		C5248FED2F0CDDA0007507D7 /* horse_02_smile2.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FCB2F0CDDA0007507D7 /* horse_02_smile2.gif */; };
+		C5248FEE2F0CDDA0007507D7 /* horse_03_smile3.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FCC2F0CDDA0007507D7 /* horse_03_smile3.gif */; };
+		C5248FEF2F0CDDA0007507D7 /* horse_32_horse_smile3_connect.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE92F0CDDA0007507D7 /* horse_32_horse_smile3_connect.gif */; };
+		C5248FF02F0CDDA0007507D7 /* horse_04_laugh.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FCD2F0CDDA0007507D7 /* horse_04_laugh.gif */; };
+		C5248FF12F0CDDA0007507D7 /* horse_22_zero.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FDF2F0CDDA0007507D7 /* horse_22_zero.gif */; };
+		C5248FF22F0CDDA0007507D7 /* horse_26_lihkg.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE32F0CDDA0007507D7 /* horse_26_lihkg.gif */; };
+		C5248FF32F0CDDA0007507D7 /* horse_24_huh.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE12F0CDDA0007507D7 /* horse_24_huh.gif */; };
+		C5248FF42F0CDDA0007507D7 /* horse_10_muscle.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD32F0CDDA0007507D7 /* horse_10_muscle.gif */; };
+		C5248FF52F0CDDA0007507D7 /* horse_28_shock.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE52F0CDDA0007507D7 /* horse_28_shock.gif */; };
+		C5248FF62F0CDDA0007507D7 /* horse_21_good.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FDE2F0CDDA0007507D7 /* horse_21_good.gif */; };
+		C5248FF72F0CDDA0007507D7 /* horse_33_selfie_connect.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FEA2F0CDDA0007507D7 /* horse_33_selfie_connect.gif */; };
+		C5248FF82F0CDDA0007507D7 /* horse_06_sosad.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FCF2F0CDDA0007507D7 /* horse_06_sosad.gif */; };
+		C5248FF92F0CDDA0007507D7 /* horse_25_nah.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE22F0CDDA0007507D7 /* horse_25_nah.gif */; };
+		C5248FFA2F0CDDA0007507D7 /* horse_08_selfie.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD12F0CDDA0007507D7 /* horse_08_selfie.gif */; };
+		C5248FFB2F0CDDA0007507D7 /* horse_29_what.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE62F0CDDA0007507D7 /* horse_29_what.gif */; };
+		C5248FFC2F0CDDA0007507D7 /* horse_01_smile.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FCA2F0CDDA0007507D7 /* horse_01_smile.gif */; };
+		C5248FFD2F0CDDA0007507D7 /* horse_05_haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FCE2F0CDDA0007507D7 /* horse_05_haha.gif */; };
+		C5248FFE2F0CDDA0007507D7 /* horse_13_rope.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD62F0CDDA0007507D7 /* horse_13_rope.gif */; };
+		C5248FFF2F0CDDA0007507D7 /* horse_30_wtf.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE72F0CDDA0007507D7 /* horse_30_wtf.gif */; };
+		C52490002F0CDDA0007507D7 /* horse_27_sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE42F0CDDA0007507D7 /* horse_27_sad.gif */; };
+		C52490012F0CDDA0007507D7 /* horse_16_betting.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD92F0CDDA0007507D7 /* horse_16_betting.gif */; };
+		C52490022F0CDDA0007507D7 /* horse_12_bye.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD52F0CDDA0007507D7 /* horse_12_bye.gif */; };
+		C52490032F0CDDA0007507D7 /* horse_14_drink.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD72F0CDDA0007507D7 /* horse_14_drink.gif */; };
+		C52490042F0CDDA0007507D7 /* horse_09_glasses.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD22F0CDDA0007507D7 /* horse_09_glasses.gif */; };
+		C52490052F0CDDA0007507D7 /* horse_11_dance.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD42F0CDDA0007507D7 /* horse_11_dance.gif */; };
+		C52490062F0CDDA0007507D7 /* horse_17_unicorn.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FDA2F0CDDA0007507D7 /* horse_17_unicorn.gif */; };
+		C52490072F0CDDA0007507D7 /* horse_31_zzz.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE82F0CDDA0007507D7 /* horse_31_zzz.gif */; };
+		C52490082F0CDDA0007507D7 /* horse_20_jeng.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FDD2F0CDDA0007507D7 /* horse_20_jeng.gif */; };
+		C52490092F0CDDA0007507D7 /* horse_07_rose.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD02F0CDDA0007507D7 /* horse_07_rose.gif */; };
+		C524900A2F0CDDA0007507D7 /* horse_15_gone.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FD82F0CDDA0007507D7 /* horse_15_gone.gif */; };
+		C524900B2F0CDDA0007507D7 /* horse_23_look.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FE02F0CDDA0007507D7 /* horse_23_look.gif */; };
+		C524900C2F0CDDA0007507D7 /* horse_19_cry.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5248FDC2F0CDDA0007507D7 /* horse_19_cry.gif */; };
 		C53E7A332DED57A100D76016 /* pig_40_dying.gif in Resources */ = {isa = PBXBuildFile; fileRef = C53E79CA2DED57A100D76016 /* pig_40_dying.gif */; };
 		C53E7A342DED57A100D76016 /* dog_22_stop.gif in Resources */ = {isa = PBXBuildFile; fileRef = C53E79382DED57A100D76016 /* dog_22_stop.gif */; };
 		C53E7A352DED57A100D76016 /* cat_16_shaking.gif in Resources */ = {isa = PBXBuildFile; fileRef = C53E78F42DED57A100D76016 /* cat_16_shaking.gif */; };
@@ -347,6 +380,39 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5248FCA2F0CDDA0007507D7 /* horse_01_smile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_01_smile.gif; sourceTree = "<group>"; };
+		C5248FCB2F0CDDA0007507D7 /* horse_02_smile2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_02_smile2.gif; sourceTree = "<group>"; };
+		C5248FCC2F0CDDA0007507D7 /* horse_03_smile3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_03_smile3.gif; sourceTree = "<group>"; };
+		C5248FCD2F0CDDA0007507D7 /* horse_04_laugh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_04_laugh.gif; sourceTree = "<group>"; };
+		C5248FCE2F0CDDA0007507D7 /* horse_05_haha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_05_haha.gif; sourceTree = "<group>"; };
+		C5248FCF2F0CDDA0007507D7 /* horse_06_sosad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_06_sosad.gif; sourceTree = "<group>"; };
+		C5248FD02F0CDDA0007507D7 /* horse_07_rose.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_07_rose.gif; sourceTree = "<group>"; };
+		C5248FD12F0CDDA0007507D7 /* horse_08_selfie.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_08_selfie.gif; sourceTree = "<group>"; };
+		C5248FD22F0CDDA0007507D7 /* horse_09_glasses.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_09_glasses.gif; sourceTree = "<group>"; };
+		C5248FD32F0CDDA0007507D7 /* horse_10_muscle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_10_muscle.gif; sourceTree = "<group>"; };
+		C5248FD42F0CDDA0007507D7 /* horse_11_dance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_11_dance.gif; sourceTree = "<group>"; };
+		C5248FD52F0CDDA0007507D7 /* horse_12_bye.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_12_bye.gif; sourceTree = "<group>"; };
+		C5248FD62F0CDDA0007507D7 /* horse_13_rope.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_13_rope.gif; sourceTree = "<group>"; };
+		C5248FD72F0CDDA0007507D7 /* horse_14_drink.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_14_drink.gif; sourceTree = "<group>"; };
+		C5248FD82F0CDDA0007507D7 /* horse_15_gone.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_15_gone.gif; sourceTree = "<group>"; };
+		C5248FD92F0CDDA0007507D7 /* horse_16_betting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_16_betting.gif; sourceTree = "<group>"; };
+		C5248FDA2F0CDDA0007507D7 /* horse_17_unicorn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_17_unicorn.gif; sourceTree = "<group>"; };
+		C5248FDB2F0CDDA0007507D7 /* horse_18_angry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_18_angry.gif; sourceTree = "<group>"; };
+		C5248FDC2F0CDDA0007507D7 /* horse_19_cry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_19_cry.gif; sourceTree = "<group>"; };
+		C5248FDD2F0CDDA0007507D7 /* horse_20_jeng.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_20_jeng.gif; sourceTree = "<group>"; };
+		C5248FDE2F0CDDA0007507D7 /* horse_21_good.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_21_good.gif; sourceTree = "<group>"; };
+		C5248FDF2F0CDDA0007507D7 /* horse_22_zero.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_22_zero.gif; sourceTree = "<group>"; };
+		C5248FE02F0CDDA0007507D7 /* horse_23_look.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_23_look.gif; sourceTree = "<group>"; };
+		C5248FE12F0CDDA0007507D7 /* horse_24_huh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_24_huh.gif; sourceTree = "<group>"; };
+		C5248FE22F0CDDA0007507D7 /* horse_25_nah.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_25_nah.gif; sourceTree = "<group>"; };
+		C5248FE32F0CDDA0007507D7 /* horse_26_lihkg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_26_lihkg.gif; sourceTree = "<group>"; };
+		C5248FE42F0CDDA0007507D7 /* horse_27_sad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_27_sad.gif; sourceTree = "<group>"; };
+		C5248FE52F0CDDA0007507D7 /* horse_28_shock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_28_shock.gif; sourceTree = "<group>"; };
+		C5248FE62F0CDDA0007507D7 /* horse_29_what.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_29_what.gif; sourceTree = "<group>"; };
+		C5248FE72F0CDDA0007507D7 /* horse_30_wtf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_30_wtf.gif; sourceTree = "<group>"; };
+		C5248FE82F0CDDA0007507D7 /* horse_31_zzz.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_31_zzz.gif; sourceTree = "<group>"; };
+		C5248FE92F0CDDA0007507D7 /* horse_32_horse_smile3_connect.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_32_horse_smile3_connect.gif; sourceTree = "<group>"; };
+		C5248FEA2F0CDDA0007507D7 /* horse_33_selfie_connect.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horse_33_selfie_connect.gif; sourceTree = "<group>"; };
 		C53E78E52DED57A100D76016 /* cat_01_smile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cat_01_smile.gif; sourceTree = "<group>"; };
 		C53E78E62DED57A100D76016 /* cat_02_lick.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cat_02_lick.gif; sourceTree = "<group>"; };
 		C53E78E72DED57A100D76016 /* cat_03_nap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cat_03_nap.gif; sourceTree = "<group>"; };
@@ -704,6 +770,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5248FEB2F0CDDA0007507D7 /* horse */ = {
+			isa = PBXGroup;
+			children = (
+				C5248FCA2F0CDDA0007507D7 /* horse_01_smile.gif */,
+				C5248FCB2F0CDDA0007507D7 /* horse_02_smile2.gif */,
+				C5248FCC2F0CDDA0007507D7 /* horse_03_smile3.gif */,
+				C5248FCD2F0CDDA0007507D7 /* horse_04_laugh.gif */,
+				C5248FCE2F0CDDA0007507D7 /* horse_05_haha.gif */,
+				C5248FCF2F0CDDA0007507D7 /* horse_06_sosad.gif */,
+				C5248FD02F0CDDA0007507D7 /* horse_07_rose.gif */,
+				C5248FD12F0CDDA0007507D7 /* horse_08_selfie.gif */,
+				C5248FD22F0CDDA0007507D7 /* horse_09_glasses.gif */,
+				C5248FD32F0CDDA0007507D7 /* horse_10_muscle.gif */,
+				C5248FD42F0CDDA0007507D7 /* horse_11_dance.gif */,
+				C5248FD52F0CDDA0007507D7 /* horse_12_bye.gif */,
+				C5248FD62F0CDDA0007507D7 /* horse_13_rope.gif */,
+				C5248FD72F0CDDA0007507D7 /* horse_14_drink.gif */,
+				C5248FD82F0CDDA0007507D7 /* horse_15_gone.gif */,
+				C5248FD92F0CDDA0007507D7 /* horse_16_betting.gif */,
+				C5248FDA2F0CDDA0007507D7 /* horse_17_unicorn.gif */,
+				C5248FDB2F0CDDA0007507D7 /* horse_18_angry.gif */,
+				C5248FDC2F0CDDA0007507D7 /* horse_19_cry.gif */,
+				C5248FDD2F0CDDA0007507D7 /* horse_20_jeng.gif */,
+				C5248FDE2F0CDDA0007507D7 /* horse_21_good.gif */,
+				C5248FDF2F0CDDA0007507D7 /* horse_22_zero.gif */,
+				C5248FE02F0CDDA0007507D7 /* horse_23_look.gif */,
+				C5248FE12F0CDDA0007507D7 /* horse_24_huh.gif */,
+				C5248FE22F0CDDA0007507D7 /* horse_25_nah.gif */,
+				C5248FE32F0CDDA0007507D7 /* horse_26_lihkg.gif */,
+				C5248FE42F0CDDA0007507D7 /* horse_27_sad.gif */,
+				C5248FE52F0CDDA0007507D7 /* horse_28_shock.gif */,
+				C5248FE62F0CDDA0007507D7 /* horse_29_what.gif */,
+				C5248FE72F0CDDA0007507D7 /* horse_30_wtf.gif */,
+				C5248FE82F0CDDA0007507D7 /* horse_31_zzz.gif */,
+				C5248FE92F0CDDA0007507D7 /* horse_32_horse_smile3_connect.gif */,
+				C5248FEA2F0CDDA0007507D7 /* horse_33_selfie_connect.gif */,
+			);
+			path = horse;
+			sourceTree = "<group>";
+		};
 		C53E78FF2DED57A100D76016 /* cat */ = {
 			isa = PBXGroup;
 			children = (
@@ -1098,6 +1204,7 @@
 				C53E79222DED57A100D76016 /* cow */,
 				C53E79562DED57A100D76016 /* dog */,
 				C53E79792DED57A100D76016 /* dragon */,
+				C5248FEB2F0CDDA0007507D7 /* horse */,
 				C53E79A22DED57A100D76016 /* mouse */,
 				C53E79CF2DED57A100D76016 /* pig */,
 				C53E79F52DED57A100D76016 /* rabbit */,
@@ -1347,6 +1454,39 @@
 				C53E7A842DED57A100D76016 /* cow_32_lihkg.gif in Resources */,
 				C53E7A852DED57A100D76016 /* dragon_31_z.gif in Resources */,
 				C53E7A862DED57A100D76016 /* dog_45_fight2.gif in Resources */,
+				C5248FEC2F0CDDA0007507D7 /* horse_18_angry.gif in Resources */,
+				C5248FED2F0CDDA0007507D7 /* horse_02_smile2.gif in Resources */,
+				C5248FEE2F0CDDA0007507D7 /* horse_03_smile3.gif in Resources */,
+				C5248FEF2F0CDDA0007507D7 /* horse_32_horse_smile3_connect.gif in Resources */,
+				C5248FF02F0CDDA0007507D7 /* horse_04_laugh.gif in Resources */,
+				C5248FF12F0CDDA0007507D7 /* horse_22_zero.gif in Resources */,
+				C5248FF22F0CDDA0007507D7 /* horse_26_lihkg.gif in Resources */,
+				C5248FF32F0CDDA0007507D7 /* horse_24_huh.gif in Resources */,
+				C5248FF42F0CDDA0007507D7 /* horse_10_muscle.gif in Resources */,
+				C5248FF52F0CDDA0007507D7 /* horse_28_shock.gif in Resources */,
+				C5248FF62F0CDDA0007507D7 /* horse_21_good.gif in Resources */,
+				C5248FF72F0CDDA0007507D7 /* horse_33_selfie_connect.gif in Resources */,
+				C5248FF82F0CDDA0007507D7 /* horse_06_sosad.gif in Resources */,
+				C5248FF92F0CDDA0007507D7 /* horse_25_nah.gif in Resources */,
+				C5248FFA2F0CDDA0007507D7 /* horse_08_selfie.gif in Resources */,
+				C5248FFB2F0CDDA0007507D7 /* horse_29_what.gif in Resources */,
+				C5248FFC2F0CDDA0007507D7 /* horse_01_smile.gif in Resources */,
+				C5248FFD2F0CDDA0007507D7 /* horse_05_haha.gif in Resources */,
+				C5248FFE2F0CDDA0007507D7 /* horse_13_rope.gif in Resources */,
+				C5248FFF2F0CDDA0007507D7 /* horse_30_wtf.gif in Resources */,
+				C52490002F0CDDA0007507D7 /* horse_27_sad.gif in Resources */,
+				C52490012F0CDDA0007507D7 /* horse_16_betting.gif in Resources */,
+				C52490022F0CDDA0007507D7 /* horse_12_bye.gif in Resources */,
+				C52490032F0CDDA0007507D7 /* horse_14_drink.gif in Resources */,
+				C52490042F0CDDA0007507D7 /* horse_09_glasses.gif in Resources */,
+				C52490052F0CDDA0007507D7 /* horse_11_dance.gif in Resources */,
+				C52490062F0CDDA0007507D7 /* horse_17_unicorn.gif in Resources */,
+				C52490072F0CDDA0007507D7 /* horse_31_zzz.gif in Resources */,
+				C52490082F0CDDA0007507D7 /* horse_20_jeng.gif in Resources */,
+				C52490092F0CDDA0007507D7 /* horse_07_rose.gif in Resources */,
+				C524900A2F0CDDA0007507D7 /* horse_15_gone.gif in Resources */,
+				C524900B2F0CDDA0007507D7 /* horse_23_look.gif in Resources */,
+				C524900C2F0CDDA0007507D7 /* horse_19_cry.gif in Resources */,
 				C53E7A872DED57A100D76016 /* dragon_08_disappear.gif in Resources */,
 				C53E7A882DED57A100D76016 /* snake_11_wtf.gif in Resources */,
 				C53E7A892DED57A100D76016 /* snake_21_hypnosis.gif in Resources */,
